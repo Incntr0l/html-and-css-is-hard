@@ -5,3 +5,5 @@ As part of my training, I am to do the HTML & CSS training on the Internetting I
 The link to the Internetting Is Hard website is https://internetingishard.com/html-and-css/
 
 Each 'chapter' is different, and each one will take a different amount of time. I will also be creating new folders for each chapter so it will be easier to tell which chapter is which.
+
+Each part that is coded will NOT be shown in GIT Hub, but if you go to the GIT folder on your desktop you will be able to see what you have coded.
