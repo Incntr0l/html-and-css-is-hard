@@ -3,8 +3,12 @@
     font-style: italic;
 }
 
-.button {
-    color: #FFF;
+.button:link,
+.button:visited {
+    display: block;
+    text-decoration: none;
+
+    color: grey;
     background-color: #5995DA;
     font-weight: bold;
     padding: 20px;
@@ -30,28 +34,40 @@
     font-style: normal;
 }
 
-a:link {
-    color: blue;
-    text-decoration: none;
+.button:hover,
+.button:visited:hover {
+    color: #FFF;
+    background-color: lightblue;
 }
 
-a:visited {
-    color: purple;
+.button:active,
+.button:visited:active {
+    color: #FFF;
+    background-color: blue;
 }
 
-a:hover {
-    color: aqua;
-    text-decoration: underline;
+.call-to-action:link,
+.call-to-action:visited {
+    font-style: italic;
+    background-color: yellow;
 }
 
-a:active {
-    color: red;
+.call-to-action:hover,
+.call-to-action:visited:hover {
+    background-color: lightyellow;
+    color: grey;
 }
 
-a:visited:hover {
-    color: orange;
+.call-to-action:active,
+.call-to-action:visited:active {
+    background-color: yellowgreen;
 }
 
-a:visited:hover {
-    color: red;
+p:last-of-type {
+    margin-bottom: 50px;
+}
+
+p:first-of-type {
+    color: #7e8113;
+    font-style: italic;
 }
