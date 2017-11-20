@@ -69,6 +69,30 @@
     <p>Of course, if you’re publishing content in a language that’s read
     right-to-left, that’s another story...</p>
 
+    <style>
+    figcaption {
+      display: none;
+    }
+
+    @media only screen and (min-width: 900px) {
+      figure {
+        position: relative;
+      }
+      figcaption {
+        display: block;
+
+        font-style: italic;
+        text-align: right;
+        background-color: #FFFFFF;
+
+        position: absolute;
+        left: -220px;
+        width: 200px;
+      }
+    }
+      
+    </style>
+
   </section>
 
   <section class='section section--gray justify'>
@@ -80,6 +104,12 @@
     makes it harder to scan the text. Most browsers don’t have good built-in
     hyphenation engines.</p>
     
+<style>
+  .justify {
+    text-align: justify;
+  }
+</style>
+
   </section>
 
 </div>

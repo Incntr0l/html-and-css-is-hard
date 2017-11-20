@@ -40,7 +40,17 @@
     </section>
 
     <section class='section section--red not-so-manageable'>
-      <h2>Not-So-Manageable Line Length</h2>
+      <h2>Not-So-Manageable Line Length
+          <style>
+              @media only screen and (min-width: 580px;) {
+                .not-so-manageable {
+                  max-width: 100%;
+                  margin-left: 2em;
+                  margin-right: 2em;
+                }
+              }
+          </style>
+      </h2>
 
       <p>This section contains the same text as the previous one, but with a line
       length that always stretches to the size of the browser. It’s more difficult
